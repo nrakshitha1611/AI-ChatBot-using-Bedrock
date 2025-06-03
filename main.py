@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 # AWS Configuration
-os.environ["AWS_PROFILE"] = "rakshitha"
+os.environ["AWS_PROFILE"] = "your_profile_name"
 
 @st.cache_resource
 def initialize_bedrock():
